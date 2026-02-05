@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* PAGE BACKGROUND */
+body {
+  min-height: 100vh;
+  background: url("https://scopw.eduwings.in/assets/banner1.jpg") center / cover no-repeat;
+}
+
+/* DARK OVERLAY */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+/* CENTER LOGIN BOX */
+.login-container {
+  position: relative;
+  z-index: 2;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LOGIN CARD */
+.login-box {
+  width: 380px;
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 6px;
+  border-top: 5px solid #f59c1a;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+/* LOGO */
+.logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+/* TITLE */
+.college-text p {
+  font-size: calc(1.25625rem + .075vw);
+  color: #000;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: .46875rem;
+  font-weight: 600;
+  line-height: 1.2px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display: block;
+}
+
+/* INPUTS */
+form input,
+form select {
+  width: 100%;
+  padding: 11px;
+  margin-bottom: 14px;
+  border-radius: 4px;
+  border: 1px solid #cfcfcf;
+  font-size: 14px;
+}
+
+form input:focus,
+form select:focus {
+  outline: none;
+  border-color: #ff9f1a;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #f9a01b;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f08c00;
+}
+
