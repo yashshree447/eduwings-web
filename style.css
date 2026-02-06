@@ -37,7 +37,7 @@ body {
   padding: 0 10px ;
   border-radius: 6px;
   border-top: 5px solid #b05d33;
-  overflow: hidden; /* important for banner */
+  overflow:hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.35);
 }
 
@@ -63,7 +63,7 @@ body {
 
 /* FORM AREA */
 form {
-  padding: 0 20px 20px;
+  padding: 10px 20px 20px;
 }
 
 /* INPUTS */
@@ -80,7 +80,7 @@ form select {
 form input:focus,
 form select:focus {
   outline: none;
-  border-color: #0983fd;
+  border-color: #54a3f2;
 }
 
 /* BUTTON */
@@ -98,5 +98,3 @@ button {
 button:hover {
   background: #da5a15;
 }
-
-
