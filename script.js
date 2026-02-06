@@ -19,8 +19,8 @@ for (let i = currentYear - 3; i <= currentYear + 3; i++) {
 // login submit
 document.getElementById("loginForm").addEventListener("submit", function (e) {
   e.preventDefault();
-
+  
   const selectedYear = yearSelect.value;
-  alert("Selected Academic Year: " + selectedYear);
+  alert("Login successful!\nAcademic Year: " + selectedYear);
 });
 

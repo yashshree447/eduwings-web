@@ -6,29 +6,35 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Overlay -->
+
+  <!-- Dark overlay -->
   <div class="overlay"></div>
 
-  <div class="login-container">
+  <!-- Centered section -->
+  <section class="login-container">
     <div class="login-box">
-          <div class="logo">
-    <img src="https://scopw.eduwings.in/assets/img/savitridevi_clg_logo.png" alt="College Logo" >
-  </div>
 
+      <!-- Banner -->
+      <div class="logo">
+        <img src="logo banner.png" alt="College Logo">
+      </div>
+
+      <!-- Text -->
       <div class="college-text">
         <p>E-Campus Admin</p>
       </div>
 
+      <!-- Form -->
       <form id="loginForm">
-        <input type="text" placeholder="User name" required>
+        <input type="text" placeholder="Username" required>
         <input type="password" placeholder="Password" required>
-         <select id="yearSelect"></select>
-         
+        <select id="yearSelect"></select>
+
         <button type="submit">Login</button>
       </form>
 
     </div>
-  </div>
+  </section>
 
   <script src="script.js"></script>
 </body>

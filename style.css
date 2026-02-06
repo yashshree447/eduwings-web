@@ -1,3 +1,4 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +6,10 @@
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
-/* PAGE BACKGROUND */
+/* BACKGROUND */
 body {
   min-height: 100vh;
-  background: url("https://scopw.eduwings.in/assets/banner1.jpg") center / cover no-repeat;
+  background: url("login.bg.jpg") center / cover no-repeat;
 }
 
 /* DARK OVERLAY */
@@ -19,7 +20,7 @@ body {
   z-index: 1;
 }
 
-/* CENTER LOGIN BOX */
+/* CENTER LOGIN SECTION */
 .login-container {
   position: relative;
   z-index: 2;
@@ -29,41 +30,40 @@ body {
   justify-content: center;
 }
 
-/* LOGIN CARD */
+/* LOGIN BOX */
 .login-box {
   width: 380px;
   background: #ffffff;
-  padding: 28px;
+  padding: 0 10px ;
   border-radius: 6px;
-  border-top: 5px solid #f59c1a;
+  border-top: 5px solid #b05d33;
+  overflow: hidden; /* important for banner */
   box-shadow: 0 10px 30px rgba(0,0,0,0.35);
 }
 
-/* LOGO */
-.logo {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
+/* BANNER */
 .logo img {
   width: 100%;
-  height: auto;
+  height: 120px;
+  object-fit: cover;
+  display: block;
 }
 
-/* TITLE */
-.college-text p {
-  font-size: calc(1.25625rem + .075vw);
-  color: #000;
+/* TEXT BELOW BANNER */
+.college-text {
   text-align: center;
-  margin-top: 0;
-  margin-bottom: .46875rem;
+  padding: 14px 20px 10px;
+}
+
+.college-text p {
+  font-size: 18px;
   font-weight: 600;
-  line-height: 1.2px;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  display: block;
+  color: #000;
+}
+
+/* FORM AREA */
+form {
+  padding: 0 20px 20px;
 }
 
 /* INPUTS */
@@ -80,14 +80,14 @@ form select {
 form input:focus,
 form select:focus {
   outline: none;
-  border-color: #ff9f1a;
+  border-color: #0983fd;
 }
 
 /* BUTTON */
 button {
   width: 100%;
   padding: 12px;
-  background: #f9a01b;
+  background: #b05d33;
   border: none;
   color: #fff;
   font-size: 16px;
@@ -96,6 +96,7 @@ button {
 }
 
 button:hover {
-  background: #f08c00;
+  background: #da5a15;
 }
+
 
